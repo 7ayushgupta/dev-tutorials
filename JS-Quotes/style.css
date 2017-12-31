@@ -1,0 +1,77 @@
+body{
+	background-color: orange;
+	width: 100vw;
+	height: 100vh; 
+	overflow-x:hidden;
+	margin: 0px;
+}
+
+.heading{
+	text-align: center;
+	background-color: black;
+	padding: 30px;
+	margin: 0px;
+	color:white;
+	width: 100%;
+}
+
+.fullquote{
+	background-color: #0f3;
+	width: 50%;
+	margin-left: 25%;
+	border-radius: 40px;
+}
+
+.quotes{
+	padding: 50px;
+}
+
+.newquote{
+	padding: 10px;
+	border-radius: 20px;
+	width:75%;
+}
+
+hr
+{
+    border: 3px solid white;
+}
+
+.buttons{
+	margin:auto;
+	margin-top: 40px;
+	width:230px;
+	height:50px;
+}
+
+.btn-twitter {
+	  background: #00ACEE;
+	  border-radius: 50%;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #0075a2;
+	  width:45px;
+	  height: 45px;
+}
+.btn-twitter:link, .btn-twitter:visited {
+	  color: #fff; 
+}
+.btn-twitter:active, .btn-twitter:hover {
+	  background: #0075a2;
+	  color: #fff; 
+}
+
+.twitter{
+	font-size: 800px;
+}
+
+.quotetext{
+	margin-left: auto;
+	text-align: center;
+}
+
+.quoteauthor{
+	text-align: right;
+	margin-right: 10px;
+}

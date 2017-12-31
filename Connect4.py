@@ -1,8 +1,3 @@
-# Four-In-A-Row (a Connect Four clone)
-# By Al Sweigart al@inventwithpython.com
-# http://inventwithpython.com/pygame
-# Released under a "Simplified BSD" license
-
 import random, copy, sys, pygame
 from pygame.locals import *
 
