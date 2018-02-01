@@ -1,7 +1,7 @@
 #!/bin/sh
 
-username="ayushgup"
-password="ayushsfc***"
+username=""
+password=""
 
 google="http://74.125.236.208"
 curl_opts="-k -m3 -s --stderr /dev/null"
