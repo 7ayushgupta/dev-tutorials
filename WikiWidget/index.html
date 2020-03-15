@@ -1,0 +1,41 @@
+<!-- just learn't that all tags are not mandatory, and we can skip many of them -->
+<head>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<header>
+</header>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="text-center"><h1>Wikipedia Viewer</h1></div>
+      <div class="wrapper col-xs-10 col-xs-offset-1">
+        <div class="random">
+          <div class="content"></div>
+          <a href="https://en.wikipedia.org/wiki/Special:Random">
+            <button id="random" class="btn center-block">Random Article</button>
+          </a>
+        </div>
+        <div class="search">
+          <a href="#"><button id="search" class="btn center-block">Search</button></a>
+          <div class="search-container hidden">
+            <span class="col-xs-10 col-xs-offset-1 form-group">
+                <input id="searchbox" class="searchbox form-control" type="text" name="query" placeholder="Search Wikipedia">
+            </span>
+            <span class="col-xs-1"><i id="submit" class="fa fa-chevron-right" aria-hidden="true"></i></span>
+          </div>
+          <table class="search-results table table-striped table-hover hidden table-responsive">
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div><!--.wrapper-->
+    </div> <!-- .row -->
+  </div><!-- .container-fluid -->
+</body>
+<footer>
+</footer>
