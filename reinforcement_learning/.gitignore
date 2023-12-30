@@ -1,0 +1,6 @@
+.vscode/
+.ipynb_checkpoints
+*.pyc
+berkeley_cs
+matlab_code
+*.zip
