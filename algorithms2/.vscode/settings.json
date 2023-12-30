@@ -1,0 +1,34 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "jupyter.kernels.filter": [
+        {
+            "path": "/Users/ayushgupta/opt/anaconda3/bin/python",
+            "type": "pythonEnvironment"
+        },
+        {
+            "path": "/Users/ayushgupta/opt/anaconda3/envs/ml_env/bin/python",
+            "type": "pythonEnvironment"
+        },
+        {
+            "path": "/Users/ayushgupta/opt/anaconda3/envs/mlp/bin/python",
+            "type": "pythonEnvironment"
+        },
+        {
+            "path": "/usr/bin/python3",
+            "type": "pythonEnvironment"
+        }
+    ],
+    "files.associations": {
+        "vector": "cpp",
+        "ios": "cpp",
+        "unordered_set": "cpp",
+        "__split_buffer": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "queue": "cpp",
+        "string": "cpp",
+        "string_view": "cpp"
+    }
+}
